@@ -1,0 +1,439 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Email Eldorado</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      width: 100% !important;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      margin: 0;
+      padding: 0;
+      line-height: 100%;
+      background-color: #2f2f2f;
+    }
+    img {
+      outline: none;
+      text-decoration: none;
+      border: none;
+      -ms-interpolation-mode: bicubic;
+      max-width: 100% !important;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+    }
+    table td {
+      border-collapse: collapse;
+    }
+    table {
+      position: relative;
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+    a {
+      color: #ffffff;
+    }
+    .bg-text {
+      position:relative;
+      bottom: 10px;
+      left: 10px;
+      z-index: 999;
+      padding: 0 40px 0 20px;
+      background-image: url(https://github.com/lap-Dmitry/email-shop/blob/main/img/text.png?raw=true);
+      background-repeat:no-repeat;
+      background-position: center;
+    }
+    .product {
+      display: flex;
+      width: 310px;
+    }
+    .info-client {
+      display: flex;
+      max-width: 555px;
+      width: 91%;
+      Margin: auto;
+    }
+    .footer {
+      display: none;
+    }
+    @media(max-width: 599px) {
+      .img-man {
+        display: none;
+      }
+      .bg-text {
+        background-image: none;
+        background-color:#a60229;
+        top: 0;
+        left: 0;
+        border-radius: 20px;
+        padding: 20px 10px;
+      }
+      .product {
+        flex-wrap: wrap;
+        width: 120px;
+        text-align: center;
+      }
+      .order-pending {
+        padding: 20px 0;
+      }
+      .info-client {
+        display: block;
+        max-width: 600px;
+        width: 100%;
+      }
+      .footer {
+        display: block;
+      }
+    }
+</style>
+    </head>
+    <body>
+        <table border="0" cellpadding="0" cellspasing="0" style="margin: 0; padding: 0" width="100%" bgcolor="#2f2f2f">
+          <tr>
+            <td align="center">
+              <center style="max-width: 600px; width: 100%;  background-color: #2f2f2f">
+
+               <!--[if gte mso 9]>
+              <table border="0" cellpadding="0" cellspasing="0" style="margin: 0; padding: 0"><tr><td>
+                <![endif]-->
+
+                <table border="0" cellpadding="0" cellspasing="0" style="margin: 0; padding: 0" width="100%">
+                    <tr>
+                      <td>
+
+                        <!--[if gte mso 9]>
+                          <table border="0" cellpadding="0" cellspasing="0">                          
+                            <table border="0" cellpadding="0" cellspasing="0" width="300" align="center"><tr><td>
+                              <![endif]-->
+                              
+                              <!-- block header -->
+                              <span style="display: block; max-width: 600px; width: 100%; background-color: #ffffff;">
+                                <table>
+                                  <tr>
+                                      <td style="padding: 10px 0 10px 20px;" max-width="300px" width="70%">
+                                          <a href="https://www.eldorado.ru/" target="_blank"><img src="https://github.com/lap-Dmitry/email-shop/blob/main/img/logo.png?raw=true" alt="Эльдорадо"></a>                
+                                      </td>
+                                      <td width="300px" style="text-align: right; padding-right: 25px;">
+                                       <a style="Margin: 10px;" href="https://www.eldorado.ru/personal/club/operations/" target="_blank"><img src="https://github.com/lap-Dmitry/email-shop/blob/main/img/Layer%202.png?raw=true" alt="Профиль"></a> 
+                                       <a href="https://www.eldorado.ru/d/" target="_blank"><img src="https://github.com/lap-Dmitry/email-shop/blob/main/img/menu%201.png?raw=true" alt="Каталог"></a>
+                                      </td>
+                                  </tr>                    
+                              </table>
+                              </span>
+                              <!-- block header -->
+
+                        <!--[if gte mso 9]>
+                        </td></tr></table>
+                      </td>
+                      <td align="center">
+                        <table border="0" cellpadding="0" cellspasing="0" align="center"><tr><td>
+                          <![endif]-->
+
+                          <!-- block main -->
+                          <span class="order-pending" style="display: block; max-width: 600px; width: 100%; background-color: #c2002e;">
+                            <table>
+                              <tr>
+                                  <td class="bg-text" width="391px">                                      
+                                      <span style="font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 38px;color: #FFFFFF;">Ваш заказ №ХХХХХХХХХ обрабатывается</span>
+                                      <span style="font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 13px;line-height: 16px;color: #FFFFFF;">Мы подтвердим Ваш заказ в ближайшее время, <br /> а так же сообщим ожидаемую дату доставки <br /> по СМС и эл. почте или позвоним для уточнения.</span>
+                                  </td>
+                                  <td class="img-man" width="209px"  style="text-align: right; position: relative; top: 1px; left: 1px;">
+                                    <img src="https://github.com/lap-Dmitry/email-shop/blob/main/img/GIF_1.gif?raw=true" alt="Man">
+                                  </td>
+                              </tr>                    
+                          </table>
+                          </span>
+                          <!-- block main -->
+
+                          <!--[if gte mso 9]>
+                        </td></tr></table>
+                      </td>
+                      <td align="center">
+                        <table border="0" cellpadding="0" cellspasing="0" align="center"><tr><td>
+                          <![endif]-->
+                          
+                          <!-- block order -->
+                          <span style="display: block; max-width: 600px; width: 100%; background-color: #c2002e; background-image: url(https://github.com/lap-Dmitry/email-shop/blob/main/img/bg-bonus.png?raw=true); background-repeat: no-repeat; background-position: center;">
+                            <table max-width="555px" width="91%" style="Margin: auto;">
+                              <tr style="background: #7eb928;">
+                                <span>
+                                  <td width="300px" style="font-family: 'DIN Pro'; font-style: normal;font-weight: 500;font-size: 12px;line-height: 38px; color: #ffffff;">
+                                      <span style="padding-left: 20px;">ТОВАР</span>
+                                  </td>
+                                  <td width="300px" style="text-align: right; font-family: 'DIN Pro'; font-style: normal;font-weight: 500;font-size: 12px;line-height: 38px; color: #ffffff;">
+                                      <span style="padding-right: 20px;">КОЛИЧЕСТВО</span></td>
+                                  <td style="font-family: 'DIN Pro'; font-style: normal;font-weight: 500;font-size: 12px;line-height: 38px; color: #ffffff;">
+                                      <span style="padding-right: 30px;">СТОИМОСТЬ</span>
+                                  </td> 
+                                </span>                               
+                              </tr>
+                              </table>
+                              <table max-width="555px" width="91%" style="Margin: auto;">
+                              <tr style="background-color: #ffffff; border-bottom: 1px solid #f8f8f8;">                             
+                                  <td style="padding: 15px 0; display: inline-block;">
+                                    <span class="product">
+                                    <img style="padding-left: 15px;" src="https://github.com/lap-Dmitry/email-shop/blob/main/img/tv.png?raw=true" alt="tv">
+                                    <span style="padding-left: 15px;font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 12px;line-height: 17px;align-items: center;text-decoration-line: underline;"><a style="color: #353535;" href="https://www.eldorado.ru/cat/detail/ultra-hd-4k-oled-televizor-55-sony-kd-55a8/" target="_blank">Ultra HD (4K) OLED телевизор 55" Sony KD-55A8</a></span>
+                                  </span>
+                                  </td>                                  
+                                  <td width="95px" style="text-align: center;"><span style="padding-right: 15px;font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 12px;line-height: 26px;align-items: center;color: #353535;">1</span></td>
+                                  <td width="105px" style="text-align: left;"><span style="font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 12px;line-height: 26px;align-items: center;color: #353535;">35 990 р.</span></td>                                
+                                </tr>
+                                </table>
+                                <table max-width="555px" width="91%" style="Margin: auto;">
+                                  <tr style="background-color: #ffffff; border-bottom: 1px solid #f8f8f8;">                             
+                                      <td style="padding: 15px 0; display: inline-block;">
+                                        <span class="product">
+                                          <img style="padding-left: 15px;" src="https://github.com/lap-Dmitry/email-shop/blob/main/img/robot.png?raw=true" alt="robot-tefal">
+                                        <span style="padding-left: 15px;font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 12px;line-height: 17px;align-items: center;text-decoration-line: underline;"><a style="color: #353535;" href="https://www.eldorado.ru/cat/detail/robot-pylesos-tefal-explorer-serie-60-rg7455wh/" target="_blank">Робот-пылесос Tefal X-plorer Serie 60 (RG7455WH)</a></span>
+                                      </span>
+                                      </td>                                      
+                                      <td width="95px" style="text-align: center;"><span style="padding-right: 15px;font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 12px;line-height: 26px;align-items: center;color: #353535;">1</span></td>
+                                      <td width="105px" style="text-align: left;"><span style="font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 12px;line-height: 26px;align-items: center;color: #353535;">35 990 р.</span></td>                                
+                                    </tr>
+                                    </table>
+                          <table max-width="555px" width="91%" style="Margin: auto;">
+                            <tr style="background-color: #ffffff; border-bottom: 1px solid #f8f8f8;">
+                                <td width="20px" style="padding: 15px 10px 15px 20px;">
+                                    <img src="https://github.com/lap-Dmitry/email-shop/blob/main/img/car.png?raw=true" alt="car">
+                                </td>
+                                <td><span style="font-family: 'Verdana'; font-style: normal;font-weight: 700;font-size: 12px;line-height: 26px;align-items: center;color: #353535;">Доставка</span></td>
+                                <td style="text-align: right;"><span style="padding-right: 61px;font-family: 'Verdana'; font-style: normal;font-weight: 700;font-size: 12px;line-height: 26px;align-items: center;color: #353535;">290 р.</span></td>
+                            </tr>
+                          </table>
+                          <table max-width="555px" width="91%" style="Margin: auto;">
+                            <tr style="background-color: #ffffff; border-bottom: 1px solid #f8f8f8;">
+                                <td width="300px" style="padding: 15px 0 15px 20px;"><span style="font-family: 'Verdana'; font-style: normal;font-weight: 700;font-size: 17px;line-height: 26px;align-items: center;color: #393D41;">К ОПЛАТЕ:</span></td>
+                                <td width="300px" style="text-align: right; padding-right: 20px;"><span style="font-family: 'Verdana'; font-style: normal;font-weight: 700;font-size: 16px;line-height: 26px;align-items: center;color: #393D41;">56 270 р.</span></td>
+                            </tr>
+                          </table>
+                          <span class="info-client">
+                          <table max-width="555px" width="91%" style="Margin: auto;">
+                            <tr width="300px" style="background-color: #f3f3f3;">
+                                <td style="padding: 10px 0 50px 25px;">
+                                    <img src="https://github.com/lap-Dmitry/email-shop/blob/main/img/Layer2_2.png?raw=true" alt="layer">
+                                </td>
+                                    <td style="padding: 20px 0;">
+                                      <span style="display: block;font-family: 'Verdana'; font-style: normal;font-weight: 700;font-size: 12px;line-height: 26px;align-items: center;color: #393D41;">Получатель</span>
+                                      <span style="display: block;font-family: 'Verdana'; font-style: normal;font-weight: 4700;font-size: 12px;line-height: 26px;align-items: center;color: #393D41;">Иван Иванович Иванов</span>
+                                      <span style="display: block;font-family: 'Verdana'; font-style: normal;font-weight: 400;font-size: 11px;line-height: 12px;align-items: center;color: #9c9c9c;">Мы направили sms на номер <br /> +7 ХХХ ХХХ ХХ ХХ <br /> с подтверждением заказа.</span>
+                                    </td>                                
+                            </tr>              
+                          </table>
+                          <table  max-width="555px" width="91%" style="Margin: auto;">
+                            <tr width="300px" style="background-color: #f3f3f3;">
+                              <td style="padding: 10px 0 50px 25px;">
+                                <img src="https://github.com/lap-Dmitry/email-shop/blob/main/img/bigCar.png?raw=true" alt="bigCar">
+                            </td>
+                            <td style="padding: 20px 0;">
+                                <span style="display: block;font-family: 'Verdana'; font-style: normal;font-weight: 700;font-size: 12px;line-height: 26px;align-items: center;color: #393D41;">Доставка курьером</span>
+                                <span style="display: block;font-family: 'Verdana'; font-style: normal;font-weight: 400;font-size: 12px;line-height: 26px;align-items: center;color: #393D41;">Москва, ул. Тихая,д.2а,кв.12</span>
+                                <span style="display: block;font-family: 'Verdana'; font-style: normal;font-weight: 400;font-size: 11px;line-height: 12px;align-items: center;color: #9c9c9c;">Дата доставки заказа: <br /> 25.03.2020 <br /> Время: с 09:00 по 22:00</span>
+                            </td>
+                            </tr>
+                          </table>
+                          </span>
+                          </table>
+                          </span>
+                          <!-- block order -->
+
+                          <!--[if gte mso 9]>
+                        </td></tr></table>
+                      </td>
+                      <td align="center">
+                        <table border="0" cellpadding="0" cellspasing="0" align="center"><tr><td>
+                          <![endif]-->
+
+                          <!-- block advertising -->
+                          <span style="display: block; max-width: 600px; width: 100%; background-color: #c2002e;">
+                            <table>
+                              <tr>
+                                <td max-width="300px" width="40%"  style="text-align: center;"><a href="https://www.eldorado.ru/club/referral/" target="_blank"><img src="https://github.com/lap-Dmitry/email-shop/blob/main/img/GIF_2.gif?raw=true" alt="Приглашайте друзей и получайте бонусы"></a></td>
+                                <td max-width="300px" width="40%" style="text-align: center;"><a href="https://www.eldorado.ru/promo/prm-bonuses-for-feedback/" target="_blank"><img src="https://github.com/lap-Dmitry/email-shop/blob/main/img/GIF_3.gif?raw=true" alt="Дарим бонусы за отзыв"></a></td>
+                            </tr>              
+                          </table>
+                          </span>
+                          <!-- block advertising -->
+
+                          <!--[if gte mso 9]>
+                        </td></tr></table>
+                      </td>
+                      <td align="center">
+                        <table border="0" cellpadding="0" cellspasing="0" align="center"><tr><td>
+                          <![endif]-->
+
+                          <!-- block return -->
+                          <span style="display: block; max-width: 600px; width: 100%; background-color: #c2002e;">
+                            <table>
+                              <tr>
+                                  <td style="padding-top: 20px;">
+                                  <span style="display: block;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 15px;line-height: 38px;align-items: center;text-align: center;color: #FFFFFF;">Ждем вас снова!</span>
+                                  <span style="display: block;font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 15px;line-height: 38px;align-items: center;text-align: center;color: #FFFFFF;">Ваш Эльдорадо.</span>
+                                </td>
+                            </tr>              
+                          </table>
+                          </span>
+                          <!-- block return -->
+
+                          <!--[if gte mso 9]>
+                        </td></tr></table>
+                      </td>
+                      <td align="center">
+                        <table border="0" cellpadding="0" cellspasing="0" align="center"><tr><td>
+                          <![endif]-->
+
+                          <!-- block footer send -->
+                          <span style="display: block; max-width: 600px; width: 100%; background-color: #a60229;">
+                            <table class="footer">
+                              <tr>
+                                  <td style="padding: 20px 10px; text-align: center;">
+                                    <span style="font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 13px;line-height: 23px;align-items: center;text-align: center;color: #FFFFFF;">
+                                      Это письмо было отправлено автоматически. Если вы не создавали заказ на нашем ресурсе, <a style="color: #ffffff;" href="https://www.eldorado.ru/help/eldorado/contact_us.php" target="_blank">сообщите нам</a> об этом.
+                                    </span>
+                                  </td>
+                            </tr>              
+                          </table>
+                          </span>
+                          <!-- block footer send -->
+
+                          <!--[if gte mso 9]>
+                        </td></tr></table>
+                      </td>
+                      <td align="center">
+                        <table border="0" cellpadding="0" cellspasing="0" align="center"><tr><td>
+                          <![endif]-->
+
+                          <!-- block footer advertising -->
+                          <span style="display: block; max-width: 600px; width: 100%; background-color: #76BC34;">
+                            <table class="footer">
+                              <tr>
+                                <td style="padding: 15px 0 15px 10px;">
+                                 <a href="https://www.eldorado.ru/" target="_blank"><img src="https://github.com/lap-Dmitry/email-shop/blob/main/img/logo_2.png?raw=true" alt="Эльдорадо"></a>
+                                </td>
+                            </tr>              
+                          </table>
+                          <table class="footer">
+                            <tr>
+                              <td style="padding: 0 0 0 10px;">
+                                <img style="vertical-align: top;" src="https://github.com/lap-Dmitry/email-shop/blob/main/img/clock.png?raw=true" alt="clock">
+                                <a href="https://www.eldorado.ru/promo/internetrassrochka/" target="_blank"><img src="https://github.com/lap-Dmitry/email-shop/blob/main/img/one-min.png?raw=true" alt="Рассрочка онлайн за 1 минуту"></a>
+                              </td>
+                              <td>
+                                <img style="vertical-align: top;" src="https://github.com/lap-Dmitry/email-shop/blob/main/img/money.png?raw=true" alt="money">
+                                <a href="https://www.eldorado.ru/promo/110-uverennosti-v-tsene/" target="_blank"><img src="https://github.com/lap-Dmitry/email-shop/blob/main/img/garant.png?raw=true" alt="Гарантия низкой цены"></a>
+                              </td>
+                              <td>
+                                <img style="vertical-align: top;" src="https://github.com/lap-Dmitry/email-shop/blob/main/img/geo.png?raw=true" alt="geo">
+                                <a href="https://www.eldorado.ru/help/delivery/" target="_blank"><img src="https://github.com/lap-Dmitry/email-shop/blob/main/img/fast%20ship.png?raw=true" alt="Быстрая и бережная доставка"></a>
+                              </td>
+                              <td>
+                                <img style="vertical-align: top;" src="https://github.com/lap-Dmitry/email-shop/blob/main/img/bonus.png?raw=true" alt="bonus">
+                                <a href="https://www.eldorado.ru/club/" target="_blank"><img src="https://github.com/lap-Dmitry/email-shop/blob/main/img/bonus%20programm.png?raw=true" alt="Бонусная программа Эльдорадости"></a>
+                              </td>
+                            </tr>
+                          </table>
+                          </span>
+                          <!-- block footer advertising -->
+
+                          <!--[if gte mso 9]>
+                        </td></tr></table>
+                      </td>
+                      <td align="center">
+                        <table border="0" cellpadding="0" cellspasing="0" align="center"><tr><td>
+                          <![endif]-->
+
+                          <!-- block footer info -->
+                          <span style="display: block; max-width: 600px; width: 100%; background-color: #393E42;">
+                            <table class="footer">
+                              <tr>
+                                <td style="padding: 15px 10px 0;">
+                                  <span style="font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 11px;line-height: 23px;text-align: center;color: #FFFFFF;">
+                                    Звоните
+                                  </span>
+                                </td>                                
+                            </tr>              
+                          </table>
+                          <table class="footer">
+                            <tr>
+                              <td style="padding: 15px 10px 0;">
+                                <span style="font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 18px;line-height: 23px;text-align: center;color: #FFFFFF;">
+                                 <a style="text-decoration: none; color: #ffffff;" href="tel:+78002502525" target="_blank">8 800 250 25 25</a>
+                                </span>
+                               </td>                               
+                            </tr>
+                          </table>
+                          <table class="footer">
+                            <tr>
+                              <td style="padding: 15px 10px 0;">
+                                <span style="font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 11px;line-height: 23px;text-align: center;color: #FFFFFF;">
+                                Следите за новостями
+                              </span>
+                              </td>                              
+                            </tr>
+                          </table>
+                          <table class="footer">
+                            <tr>
+                              <td style="padding: 15px 10px 0;">
+                                <a style="Margin-right: 30px;" href="https://www.instagram.com/eldorado_ru/" target="_blank"><img src="https://github.com/lap-Dmitry/email-shop/blob/main/img/insta.png?raw=true" alt="instagram"></a>
+                                <a style="Margin-right: 30px;" href="https://www.facebook.com/Eldorado.Stores" target="_blank"><img src="https://github.com/lap-Dmitry/email-shop/blob/main/img/Facebook.png?raw=true" alt="facebook"></a>
+                                <a style="Margin-right: 30px;" href="https://ok.ru/eldorado.stores" target="_blank"><img src="https://github.com/lap-Dmitry/email-shop/blob/main/img/Odnoklassniki.png?raw=true" alt="ok"></a>
+                                <a style="Margin-right: 30px;" href="https://vk.com/eldorado_stores" target="_blank"><img src="https://github.com/lap-Dmitry/email-shop/blob/main/img/vk.png?raw=true" alt="vk"></a>
+                                <a style="Margin-right: 30px;" href="https://www.youtube.com/user/eldoradovideo" target="_blank"><img src="https://github.com/lap-Dmitry/email-shop/blob/main/img/YouTube.png?raw=true" alt="youtube"></a>
+                              </td>                              
+                            </tr>
+                          </table>
+                          <table class="footer">
+                            <tr>
+                              <td width="290px" style="padding: 15px 10px 0 10px;">
+                                <span style="font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 9px;line-height: 14px;color: #8B8E90;">
+                                Вы получили это письмо, так как подписались на рассылку от Эльдорадо. Чтобы не пропускать наши акции и скидки, добавьте адрес <a style="color: #ffffff;" href="mailto:eldorado@club.eldorado.ru">eldorado@club.eldorado.ru</a> в адресную книгу.</span>
+                              </td>                              
+                            </tr>
+                          </table>
+                          <table class="footer">
+                            <tr>
+                              <td style="padding: 15px 10px 0;">
+                                <span style="font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 9px;line-height: 14px;color: #8B8E90;">
+                                Вы можете <a style="color: #ffffff;" href="#">отписаться,</a> но мы будем скучать :(
+                              </span>
+                              </td>                              
+                            </tr>
+                          </table>
+                          <table class="footer">
+                            <tr>
+                              <td width="290px" style="padding: 15px 10px 0;">
+                                <span style="font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 9px;line-height: 14px;color: #8B8E90;">
+                                Цены действительны на момент отправки письма и могут различаться в зависимости от региона покупки.</span>
+                              </td>                              
+                            </tr>
+                          </table>
+                          <table class="footer" max-width="600px" width="100%">
+                            <tr>
+                              <td style="padding: 15px 10px;">
+                                <span style="font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 9px;line-height: 14px;color: #8B8E90;">
+                                Веб-версия по <a style="color: #ffffff;" href="#">ссылке.</a>
+                              </span>                                
+                              </td>
+                              <td style="text-align: right; padding-right: 10px;">
+                                <span style="font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 9px;line-height: 14px;color: #8B8E90;">
+                                © Эльдорадо, 2021
+                              </span>
+                              </td>
+                            </tr>
+                          </table>
+                          </span>
+                          <!-- block footer info -->
+
+                      </td>
+                    </tr>
+                  </table>                                  
+              </center>
+                </td>
+                </tr>
+                </table>
+                </body>
+                </html>
